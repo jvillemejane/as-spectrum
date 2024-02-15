@@ -5,16 +5,16 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "(5.1.6)-1"
+      "Version":     "(5.0.1)-4"
     },
-    "CreationDate":  "2024-02-15T07:43:07+01:00"
+    "CreationDate":  "2024-02-15T09:49:58+01:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
       "Name": "AS_Spectrum_main",
-      "GUID": "41535f53-7065-4637-9472-756d5f6d6169",
+      "GUID": "41535F537065637472756D5F6D61696E",
       "Revision": "rev?"
     },
     "Size":
@@ -40,47 +40,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "AS_Spectrum_main-F_Cu.gbr",
+      "Path":  "AS_Spectrum_main-F.Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "AS_Spectrum_main-B_Cu.gbr",
+      "Path":  "AS_Spectrum_main-B.Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "AS_Spectrum_main-F_Paste.gbr",
+      "Path":  "AS_Spectrum_main-F.Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "AS_Spectrum_main-B_Paste.gbr",
+      "Path":  "AS_Spectrum_main-B.Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "AS_Spectrum_main-F_SilkS.gbr",
+      "Path":  "AS_Spectrum_main-F.SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "AS_Spectrum_main-B_SilkS.gbr",
+      "Path":  "AS_Spectrum_main-B.SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "AS_Spectrum_main-F_Mask.gbr",
+      "Path":  "AS_Spectrum_main-F.Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "AS_Spectrum_main-B_Mask.gbr",
+      "Path":  "AS_Spectrum_main-B.Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "AS_Spectrum_main-Edge_Cuts.gbr",
+      "Path":  "AS_Spectrum_main-Edge.Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
