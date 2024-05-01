@@ -257,7 +257,7 @@ void mode_fading_ISR(){
 
 void mode_sound_init(){
     if(mode_choice == Sound){
-        tik_sampling.attach(&mode_sound_ISR, SAMPLING_FREQ);
+        tik_sampling.attach(&mode_sound_ISR, SAMPLING_PER);
         printf("Sound OK\n");
     }
 }
@@ -272,6 +272,7 @@ void mode_sound_ISR(){
 void update_sound_data(int n){
     // NEXT VERSION - Color of band to change (parameter of this function ?)
     int     value_n = meas[n-1] * STRIP_SIZE;
+    printf("V_[%d] = %d \n", n, value_n);
     int     start_n = (2 * (n-1)) * STRIP_SIZE;
     int     start_n_1 = (2 * (n-1) + 1) * STRIP_SIZE;
 

@@ -36,7 +36,7 @@
 #define     FADING_INC_G        5
 #define     FADING_INC_B        2
 //      Sound Analyzer
-#define     SAMPLING_PER        1ms
+#define     SAMPLING_PER        10ms
 
 
 
