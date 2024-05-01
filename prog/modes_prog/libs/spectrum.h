@@ -21,14 +21,14 @@
 #define     milieu          9
 #define     DISPLAY_PERIOD  20     // ms 
 
-// LED strip
-#define     STRIP_SIZE      18
-#define     STRIP_NUMBER    14
-#define     STRIP_SIZE_TOT      STRIP_SIZE*STRIP_NUMBER
-
 // Filter inputs
 #define     GAIN_MIC        1.0
 #define     FILTER_NB       7
+
+// LED strip
+#define     STRIP_SIZE      18
+#define     STRIP_NUMBER    2*FILTER_NB
+#define     STRIP_SIZE_TOT      STRIP_SIZE*STRIP_NUMBER
 
 // Modes
 //      Fading
@@ -36,7 +36,7 @@
 #define     FADING_INC_G        5
 #define     FADING_INC_B        2
 //      Sound Analyzer
-#define     SAMPLING_PER        10ms
+#define     SAMPLING_PER        500ms
 
 
 
