@@ -263,7 +263,6 @@ void mode_sound_init(){
 }
 
 void mode_sound_ISR(){
-    printf("S_OK\n");
     sampling_filters();
     for(int i = 0; i < FILTER_NB; i++){
         update_sound_data(i+1);
@@ -272,18 +271,15 @@ void mode_sound_ISR(){
 
 void update_sound_data(int n){
     // NEXT VERSION - Color of band to change (parameter of this function ?)
-    //printf("M_[%d] = %f \n", n, meas[n-1]);
-    int     value_n = 2 * (meas[n-1] - 0.5) * STRIP_SIZE;
+    int     value_n = (2 * (meas[n-1]) * STRIP_SIZE) * GAIN_SOUND;
     if(value_n < 0) value_n = -value_n;
-    printf("V_[%d] = %d \n", n, value_n);
     int     start_n = (2 * (n-1)) * STRIP_SIZE;
     int     start_n_1 = (2 * (n-1) + 1) * STRIP_SIZE;
-
+    
     clear_LED_band(n);
     // iteration along the strip
     for(int k = 0; k < value_n; k++){
         my_leds.set_pix_RGB(start_n + k, 100, 0, 100);
-        my_leds.set_pix_RGB(start_n_1 + k, 100, 0, 100);
     }
 }
 

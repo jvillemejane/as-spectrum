@@ -22,7 +22,7 @@
 #define     DISPLAY_PERIOD  20     // ms 
 
 // Filter inputs
-#define     GAIN_MIC        1.0
+#define     GAIN_MIC        1.6
 #define     FILTER_NB       7
 
 // LED strip
@@ -36,7 +36,8 @@
 #define     FADING_INC_G        5
 #define     FADING_INC_B        2
 //      Sound Analyzer
-#define     SAMPLING_PER        500ms
+#define     SAMPLING_PER        50ms
+#define     GAIN_SOUND          3.0
 
 
 
