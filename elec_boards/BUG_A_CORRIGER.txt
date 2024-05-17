@@ -3,9 +3,7 @@ AS-Spectrum / 'Arts et Sciences' Project / 2024
 
 Bugs on electronic board
 ************************
-- Move 'mode' switch from PB_12 (InterruptIn bug)
-
 
 Bugs on embedde program
 ***********************
-- InterruptIn on PB_12 impossible !
+- InterruptIn on PB_12 and PA_12 impossible together ! Delete misc input :/ or no interrupt.
