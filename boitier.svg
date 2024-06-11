@@ -38,11 +38,11 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.045"
-     inkscape:cx="648.10834"
-     inkscape:cy="1910.2021"
-     inkscape:window-width="1600"
-     inkscape:window-height="837"
+     inkscape:zoom="0.5225"
+     inkscape:cx="1770.5568"
+     inkscape:cy="2477.8806"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -231,5 +231,45 @@
        cy="36.222076"
        rx="1.3846748"
        ry="1.3846747" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1052205;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.76020406"
+       id="path843"
+       cx="133.72037"
+       cy="-6.7967415"
+       r="2.6973898" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.10625502;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.76020406"
+       id="path843-8"
+       cx="133.72003"
+       cy="5.8477354"
+       rx="5.5468721"
+       ry="5.5468726" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0984887;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.76020406"
+       id="rect860"
+       width="5.4015112"
+       height="7.9015112"
+       x="131.01627"
+       y="-6.7967415" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1052205;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.76020406"
+       id="path843-6"
+       cx="399.9761"
+       cy="-6.7967415"
+       r="2.6973901" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.10625502;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.76020406"
+       id="path843-8-8"
+       cx="399.97577"
+       cy="5.8477364"
+       rx="5.5468721"
+       ry="5.5468726" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0984887;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.76020406"
+       id="rect860-2"
+       width="5.4015112"
+       height="7.9015112"
+       x="397.272"
+       y="-6.7967415" />
   </g>
 </svg>
